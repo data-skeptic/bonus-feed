@@ -1,0 +1,1 @@
+aws s3 cp $1 s3://data-skeptic-bonus-feed/episodes/2018/$1 --acl public-read

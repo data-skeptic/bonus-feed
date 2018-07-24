@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<channel>
+		<atom:link href="http://dataskeptic.com/bonusfeed.xml" rel="self" type="application/rss+xml"/>
+		<title>Data Skeptic Bonus Feed</title>
+		<pubDate>{pubDate}</pubDate>
+		<lastBuildDate>{lastBuildDate}</lastBuildDate>
+		<generator>Data Skeptic Engine 1.0</generator>
+		<link>http://dataskeptic.com</link>
+		<language>en</language>
+		<copyright><![CDATA[Creative Commons Attribution License 3.0]]></copyright>
+		<docs>http://dataskeptic.com</docs>
+		<managingEditor>kyle@dataskeptic.com</managingEditor>
+		<itunes:summary><![CDATA[Extended and extra material for people that like Data Skeptic.]]></itunes:summary>
+		<image>
+			<url>https://s3.amazonaws.com/data-skeptic-bonus-feed/assets/bonus-img.png</url>
+			<title>Data Skeptic</title>
+			<link><![CDATA[http://dataskeptic.com]]></link>
+		</image>
+		<itunes:author>Kyle Polich, Data Scientist</itunes:author>
+		<itunes:keywords>datamining,datascience,machinelearning,science,skepticism,statistics</itunes:keywords>
+	<itunes:category text="Science &amp; Medicine"/>
+	<itunes:category text="Technology"/>
+	<itunes:category text="Education">
+		<itunes:category text="Higher Education"/>
+	</itunes:category>
+		<itunes:image href="{img}" />
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:owner>
+			<itunes:name><![CDATA[Kyle Polich]]></itunes:name>
+			<itunes:email>kyle@dataskeptic.com</itunes:email>
+		</itunes:owner>
+		<description><![CDATA[Extended and extra material for people that like Data Skeptic.]]></description>
+		<itunes:subtitle><![CDATA[Bonus content for data science and scientific skepticism.]]></itunes:subtitle>
+		{items}
+	</channel>
+</rss>

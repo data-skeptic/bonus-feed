@@ -1,0 +1,13 @@
+		<item>
+			<title>{title}</title>
+			<pubDate>{pubDate}</pubDate>
+			<guid isPermaLink="false"><![CDATA[{guid}]]></guid>
+			<link><![CDATA[{link}]]></link>
+			<itunes:image href="{img}" />
+			<description><![CDATA[{desc}]]></description>
+			<enclosure length="{enclosure_len}" type="audio/mpeg" url="{enclosure_url}" />
+			<itunes:duration>{duration}</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[{subtitle}]]></itunes:subtitle>
+		</item>
